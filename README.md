@@ -1,18 +1,19 @@
-Author: Arlene Huerta
-Course: CS 3503
-Project: P1: BitBoard Checkers
-Date: 10/20/2025
+# Bitboard Checkers
 
-Commands:
-p            print board
-m FROM TO    move (indices 0..63)
-s FILE       save game to FILE
-l FILE       load game from FILE
-q            quit
+**Author:** Arlene Huerta  
+**Course:** CS 3503  
+**Project:** P1: BitBoard Checkers  
 
-Test log: run ./bitcheckers < tests/session1.txt > tests/session1.out
+## Commands:
+- p - print board
+- m - FROM TO move (indices 0..63)
+- s - FILE save game to FILE
+- l - FILE load game from FILE
+- q - quit
 
-# BitBoard Checkers (P1)
+## Test Log:
+run ./bitcheckers < tests/session1.txt > tests/session1.out
+
 ## Build
 ```
 make
@@ -37,5 +38,5 @@ The board prints with rows 0..7 and columns 0..7. Use indices 0..63 (row*8+col).
 - `src/game.c` CLI loop.
 - `src/main.c` included inside `game.c` (single `main`).
 
-This meets the rubric items: bit ops implemented and 64-bit board; moves/captures/kings; clear display and input; win detection!
+This meets the rubric items + bit ops implemented and 64-bit board; moves/captures/kings; clear display and input; win detection!
 
