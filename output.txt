@@ -1,0 +1,84 @@
+arlenehuerta@Arlenes-MacBook-Pro P1_bitboard_checkers_scaffold 2 % ./bitcheckers
+
+    0 1 2 3 4 5 6 7
+7 | b . b . b . b . | 7
+6 | . b . b . b . b | 6
+5 | b . b . b . b . | 5
+4 | . . . . . . . . | 4
+3 | . . . . . . . . | 3
+2 | . r . r . r . r | 2
+1 | r . r . r . r . | 1
+0 | . r . r . r . r | 0
+    0 1 2 3 4 5 6 7
+Turn: P1
+Commands:
+  m FROM TO   -> move from index to index (0..63)
+  p           -> print board
+  q           -> quit
+Examples: m 9 14  |  m 22 17
+P1> p
+
+    0 1 2 3 4 5 6 7
+7 | b . b . b . b . | 7
+6 | . b . b . b . b | 6
+5 | b . b . b . b . | 5
+4 | . . . . . . . . | 4
+3 | . . . . . . . . | 3
+2 | . r . r . r . r | 2
+1 | r . r . r . r . | 1
+0 | . r . r . r . r | 0
+    0 1 2 3 4 5 6 7
+Turn: P1
+P1> m 23 30
+
+    0 1 2 3 4 5 6 7
+7 | b . b . b . b . | 7
+6 | . b . b . b . b | 6
+5 | b . b . b . b . | 5
+4 | . . . . . . . . | 4
+3 | . . . . . . r . | 3
+2 | . r . r . r . . | 2
+1 | r . r . r . r . | 1
+0 | . r . r . r . r | 0
+    0 1 2 3 4 5 6 7
+Turn: P2
+P2> m 40 33
+
+    0 1 2 3 4 5 6 7
+7 | b . b . b . b . | 7
+6 | . b . b . b . b | 6
+5 | . . b . b . b . | 5
+4 | . b . . . . . . | 4
+3 | . . . . . . r . | 3
+2 | . r . r . r . . | 2
+1 | r . r . r . r . | 1
+0 | . r . r . r . r | 0
+    0 1 2 3 4 5 6 7
+Turn: P1
+P1> s save1.bin
+Commands:
+  m FROM TO   -> move from index to index (0..63)
+  p           -> print board
+  q           -> quit
+Examples: m 9 14  |  m 22 17
+P1> l save1.bin
+Commands:
+  m FROM TO   -> move from index to index (0..63)
+  p           -> print board
+  q           -> quit
+Examples: m 9 14  |  m 22 17
+P1> p
+
+    0 1 2 3 4 5 6 7
+7 | b . b . b . b . | 7
+6 | . b . b . b . b | 6
+5 | . . b . b . b . | 5
+4 | . b . . . . . . | 4
+3 | . . . . . . r . | 3
+2 | . r . r . r . . | 2
+1 | r . r . r . r . | 1
+0 | . r . r . r . r | 0
+    0 1 2 3 4 5 6 7
+Turn: P1
+P1> q
+arlenehuerta@Arlenes-MacBook-Pro P1_bitboard_checkers_scaffold 2 % 
